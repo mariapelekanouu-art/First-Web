@@ -1,0 +1,47 @@
+/* this is a CSS comment */
+
+/* here, we change some of the default styles on our main document elements */
+html, body {
+	margin: 0;
+	background-color: lightskyblue;
+}
+
+@media(max-width: 767px) {
+	html, body {
+		background-color: hsl(64, 100%, 50%);
+	}
+}
+
+body {
+	padding: 0px;
+}
+h3 {padding: 60px;}
+h3{font-size: 50px;
+color: #00ccff; 
+font-family: Garamond;}
+
+img[src$="img3.jpg"]
+ {position: sticky;
+top: 10px;
+border-radius: 50%;}
+
+
+a {color: rgb(134, 193, 63);
+transition: color 0.3s;}
+
+a:hover {color: rgb(89, 50, 205);}
+
+.silly-text {
+	font-family: fantasy;
+	color: #a825c6;
+	font-size: 40px;
+	text-wrap: balance;
+	display: flex;
+
+}
+
+.centre-text {
+	text-align: center;
+}
+
+main, h1 
